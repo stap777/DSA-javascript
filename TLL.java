@@ -28,14 +28,6 @@ public class TLL {
         }
     }
 
-    static Node insertionAtBeginning(Node head, int data) {
-
-        Node newNode = new Node(data);
-        newNode.next = head;
-        head = newNode;
-
-        return head;
-    }
 
 }
 
