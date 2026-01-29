@@ -11,8 +11,6 @@ class Node {
 public class main {
     
     static boolean detectingCycle(Node head) {
-        boolean isCycle = false;
-        Node current = head;
         Node s = head;
         Node f = head.next;
 
@@ -41,7 +39,7 @@ public class main {
         if (detectingCycle(head)) {
             System.out.println("cycle detected");
         } else {
-            System.out.println("no Cycle")
+            System.out.println("no Cycle");
         }
     }
 
