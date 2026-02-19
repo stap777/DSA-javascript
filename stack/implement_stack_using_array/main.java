@@ -12,7 +12,8 @@ public class main {
     void push(int value) {
         
         if (is_full()) {
-            System.err.println("stack overflowed");
+            
+            System.out.println("stack overflowed");
             return;
         }
         top++;
@@ -23,7 +24,7 @@ public class main {
     int pop() {
 
         if (is_Empty()) {
-            System.err.println("stack empty");
+            System.out.println("stack empty");
             return -1;
         }
 
@@ -37,7 +38,7 @@ public class main {
     int peek() {
 
          if (is_Empty()) {
-            System.err.println("stack empty");
+            System.out.println("stack empty");
         }
         
         return stack[top];
